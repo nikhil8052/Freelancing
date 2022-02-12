@@ -1,0 +1,381 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #06111c;
+
+    color: white;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+#allcontent {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 20% 70%;
+}
+
+.contentPartMain {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+}
+
+.orbitFundsMainContainer {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 40% 50%;
+}
+
+.fundsAndTiers {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 60% 40%;
+    margin-top: 3%;
+
+}
+
+/* AT THE TOP ALL THE CSS FOR NAVBAR  */
+.navbar {
+
+    border-bottom: 2px solid #0b1c2c;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #091421;
+    padding: 14px;
+
+
+}
+
+.topIcon {
+    color: white;
+    font-size: 27px;
+    padding: 3px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    float: left;
+}
+
+.topIcons ul {
+    text-align: right;
+}
+
+.topIcons ul li {
+    display: inline-block;
+    color: white;
+    padding: 5px;
+}
+
+/* ALL THE CSS FOR DASHBOARD  */
+
+.dashboard {
+    margin-top: 30%;
+    margin-left: 20px;
+    border-right: 1px solid #0b1c2c;
+}
+
+.dashboard_main {
+
+    box-sizing: border-box;
+    color: #6f7282;
+}
+
+.dashboard_main ul {
+    margin-top: 10%;
+}
+
+.dashboard_main ul li {
+    list-style-type: none;
+    color: #6f7282;
+    opacity: 0.5;
+    padding: 5px;
+    margin-left: 3px;
+
+}
+
+.dashboard_main ul li i {
+    margin-right: 7px;
+}
+
+
+.dashboard_main ul li:hover {
+    color: #847de5;
+
+}
+
+#dashboardDisconnectBTN {
+    height: 120px;
+    width: 200px;
+    background-color: #091421;
+    border-radius: 10px;
+    position: relative;
+    top: 31%;
+    padding-top: 20px;
+}
+
+.alldiscont1 {}
+
+.discont1 {
+    padding: 2px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.discont2 {
+    padding: 2px;
+    font-size: 13px;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.discont3 {}
+
+#disBTN {
+    padding: 10px;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid #6061b2;
+    background-color: #001926;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+#disBTN:hover {
+    padding: 12px;
+    margin-top: 22px;
+}
+
+
+/* _----------------------------------------------------------------------------------------- */
+
+/* ALL THE CSS OF THE RIGHT PART OF DASHBOARD */
+
+
+
+.leftText {
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    float: left;
+
+}
+
+.topBTN {
+    float: right;
+}
+
+.contentPartNav {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/*  FIRST CONTAINER  */
+.twoDivs {
+    padding: 10px;
+}
+
+.twoDivs1 {
+    margin-top: 10px;
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.twoDivs1::-webkit-scrollbar {
+    display: none;
+
+}
+
+.btnPrimary {
+    background-color: #867ee8;
+    border-radius: 5px;
+}
+
+.twoDivs1Content {
+    height: 50px;
+    padding: 2px;
+    margin-bottom: 7px;
+    background-color: #001926;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.twoDiv1ContentHeading {
+    padding-top: 4px;
+    font-size: 11px;
+    margin-left: 18px;
+}
+
+.twoDiv1ContentHeadingPrice {
+    font-size: 17px;
+    margin-left: 18px;
+    margin-top: 3px;
+}
+
+/*  SECOND CONTAINER  */
+
+.twoDivs2 {
+    box-sizing: border-box;
+    margin-left: 20px;
+    border-bottom: 2px solid #0b1c2c;
+    background-color: #001926;
+    height: 200px;
+    padding: 7px;
+    overflow-y: scroll;
+
+}
+
+
+.twoDivs2::-webkit-scrollbar {
+    display: none;
+}
+
+.twoDivs2FirstPart {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid 0b1c2c;
+
+}
+
+#twoDivs2FirstPartBlueText {
+    color: #7f79de;
+}
+
+.twoDiv1ContentHeadingIcon {
+    height: 10px;
+    width: 10px;
+    border-radius: 2px;
+    margin-right: 3px;
+}
+
+
+
+.twoDivs2SecondPart {}
+
+/* ----------------------THIRD CONTAINER ----------------------------------------------------- */
+.thirdMainContainer {
+    height: 500px;
+    background-color: #001926;
+    border-radius: 10px;
+}
+
+.thirdContainerForTierHeading {
+    height: 50px;
+    padding: 13px;
+    border-bottom: 3px solid #0b1c2c;
+}
+
+.thirdContainerForTierData {
+    overflow-y: scroll;
+    height: 400px;
+
+}
+
+.thirdContainerForTierData::-webkit-scrollbar {
+    display: none;
+
+}
+
+.individualTier {
+    background-color: #06111c;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.individualTier:hover {
+    border: 2px solid #847de5;
+}
+
+
+.tierName {
+    font-size: 13px;
+    padding-left: 10px;
+
+}
+
+.tierRequires {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.tierUpto {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.tierReturn {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+/* -------------------media query ----------------------------------------------------------- */
+
+
+@media screen and (max-width:766px) {
+
+
+    #allcontent {
+
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .orbitFundsMainContainer {
+        display: grid;
+        grid-template-rows: 70% 50%;
+        grid-template-columns: 1fr;
+    }
+
+    .fundsAndTiers {
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 100%;
+        margin-top: 3%;
+
+    }
+
+    .twoDivs2 {
+        margin-bottom: 10px ;
+    }
+
+    .dashboard_main ul {
+        margin-top: 6%;
+    }
+
+    .twoDivs1 {
+        margin-bottom: 5%;
+    }
+
+    .dashboard {
+        margin-top: 25px;
+    }
+    .thirdMainContainer{
+        margin-top: 50px ;
+    }
+    #dashboardDisconnectBTN {
+        top:20px  ;
+        margin-bottom: 20px ;
+        
+    }
+
+}
+
+/* ROUGH  */
